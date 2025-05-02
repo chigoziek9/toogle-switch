@@ -1,32 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modestus Chigozie Kingsley</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Nav Bar -->
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="nav-title">
-          <h3>Modestus Chigozie Kingsley</h3>
-          <p>Front End Website Developer</p>
-        </div>
-        <div class="nav-links">
-          <a href="#my-projects">My Projects</a>
-          <a href="#my-projects">Chigoziek9@gmail.com</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modestus Chigozie Kingsley</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-          <!-- Toggle Switch -->
-          <label class="switch">
-            <input type="checkbox" id="darkToggle" />
-            <span class="slider round"></span>
-          </label>
-          <span>Light/Dark Mode</span>
-        </div>
+  <!-- Nav Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-title">
+        <h3>Modestus Chigozie Kingsley</h3>
+        <p>Front End Website Developer</p>
       </div>
-    </nav>
-    <script src="script.js"></script>
-  </body>
+      <div class="nav-links">
+        <a href="#my-projects">My Projects</a>
+        <a href="#my-projects">Chigoziek9@gmail.com</a>
+
+        <!-- Toggle Switch -->
+        <label class="switch">
+          <input type="checkbox" id="darkToggle">
+          <span class="slider round"></span>
+        </label>
+        <span>Light/Dark Mode</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section class="intro">
+    <div class="intro-text">
+      <h1>Modestus Chigozie Kingsley</h1>
+      <p>
+        I am an aspiring fullstack website developer currently a student of
+        Careerex cohort 3. I am currently a master of HTML, CSS, and Tailwind
+        and I am still looking forward to adding more languages to my library so
+        I can be able to compete in the real world.
+      </p>
+      <a href="#contact" class="btn">Let's Get Started</a>
+    </div>
+    <div class="intro-img">
+      <img src="profile-img.jpeg" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section id="my-projects" class="projects">
+    <h1>MY PROJECTS</h1>
+    <p>A Collection Of Projects I Have Worked On</p>
+
+    <div class="card-container">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="domposer.png" alt="Domposer">
+        <h2>Domposer</h2>
+        <p>
+          Domposer is a website builder which has a UI that allows you to quickly add and rearrange HTML and CSS...
+          <a href="https://domposer.com">VISIT SITE</a>
+        </p>
+        <p class="note">NOTE: I don't own these sites, it's just for assignment purpose.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="bay.png" alt="Bay.js">
+        <h2>Bay.js</h2>
+        <p>
+          An easy to use, lightweight library for web-components...
+          <a href="https://domposer.com">VISIT SITE</a>
+        </p>
+        <p class="note">NOTE: I don't own these sites, it's just for assignment purpose.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="cookiemunch.png" alt="Cookie Munch">
+        <h2>Cookie Munch</h2>
+        <p>
+          A simple, customizable cookie plugin that allows users to select cookies...
+          <a href="https://domposer.com">VISIT SITE</a>
+        </p>
+        <p class="note">NOTE: I don't own these sites, it's just for assignment purpose.</p>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
